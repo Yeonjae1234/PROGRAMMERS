@@ -52,9 +52,6 @@ public class Main {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st;
 
-        int[][] dungeons = {{80,20},{50,40},{30,10}};
-        int k = 80;
-
         bw.write(solution("011")+"");
 
         bw.flush();
